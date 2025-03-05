@@ -31,17 +31,18 @@ export default function Home() {
       { threshold: 0.1 },
     )
 
-    if (statsRef.current) {
-      observer.observe(statsRef.current)
-    }
+    const currentStatsRef = statsRef.current
 
+    if (currentStatsRef) {
+      observer.observe(currentStatsRef)
+    }
+  
     return () => {
-      if (statsRef.current) {
-        observer.unobserve(statsRef.current)
+      if (currentStatsRef) {
+        observer.unobserve(currentStatsRef)
       }
     }
   }, [])
-
   const animateNumbers = () => {
     const duration = 2000 // 2 seconds
     const clientsTarget = 50

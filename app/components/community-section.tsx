@@ -10,8 +10,8 @@ export default function CommunitySection() {
       <div className="container mx-auto px-4 text-center relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Our Community</h2>
         <p className="text-white/80 max-w-3xl mx-auto mb-8">
-          At Harlfid, we believe in the power of collaboration and knowledge sharing. Whether you're a seasoned
-          professional or just starting your journey, you'll find a welcoming environment to engage in discussions, seek
+          At Harlfid, we believe in the power of collaboration and knowledge sharing. Whether you&apos;re a seasoned
+          professional or just starting your journey, you&apos;ll find a welcoming environment to engage in discussions, seek
           advice, and showcase your expertise. Join us today and become a part of a vibrant community shaping the future
           of technology and digital innovation.
         </p>

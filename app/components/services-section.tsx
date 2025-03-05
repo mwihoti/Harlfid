@@ -60,7 +60,7 @@ export default function ServicesSection() {
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">Our Services</h2>
         <p className="text-white/80 text-center mb-12">
-          Check out some of the services we offer. "Our Expertise, Your Growth".
+          Check out some of the services we offer. &quot;Our Expertise, Your Growth&quot;.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

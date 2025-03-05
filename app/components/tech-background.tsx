@@ -37,14 +37,17 @@ export default function TechBackground({
 
     // Particle class
     class Particle {
-      x: number
-      y: number
-      size: number
-      speedX: number
-      speedY: number
-      opacity: number
+        x!: number
+        y!: number
+        size!: number
+        speedX!: number
+        speedY!: number
+        opacity!: number
+      
 
       constructor() {
+        if (!canvas) return // Exit early if canvas is null
+
         this.x = Math.random() * canvas.width
         this.y = Math.random() * canvas.height
         this.size = Math.random() * 2 + 0.5
@@ -56,6 +59,8 @@ export default function TechBackground({
       update() {
         this.x += this.speedX
         this.y += this.speedY
+        if (!canvas) return // Exit early if canvas is null
+
 
         if (this.x > canvas.width) this.x = 0
         else if (this.x < 0) this.x = canvas.width
@@ -64,6 +69,7 @@ export default function TechBackground({
       }
 
       draw() {
+        if (!ctx) return
         ctx.beginPath()
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2)
         ctx.fillStyle = color
@@ -99,6 +105,7 @@ export default function TechBackground({
 
       draw() {
         if (this.opacity <= 0) return
+        if (!ctx) return
 
         ctx.beginPath()
         ctx.moveTo(this.from.x, this.from.y)
