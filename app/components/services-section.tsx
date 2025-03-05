@@ -5,48 +5,64 @@ import TechBackground from "./tech-background"
 const services = [
   {
     title: "Digital Marketing Services",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/f1.webp",
     alt: "Digital Marketing",
+    href: "/services#digital-marketing",
+
   },
   {
     title: "Web Design and Development Services",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/f2.webp",
     alt: "Web Design",
+    href: "/services#web-design",
+
   },
   {
     title: "Executive Virtual Assistance Services",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/f3.webp",
     alt: "Virtual Assistance",
+    href: "/services#virtual-assistance",
+
   },
   {
     title: "Social Media Management Services",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/f4.webp",
     alt: "Social Media",
+    href: "/services#social-media",
+
   },
   {
     title: "Artificial Intelligence and Machine Learning Services",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/f5.webp",
     alt: "AI/ML",
+    href: "/services#ai-ml",
   },
   {
     title: "Cybersecurity Services",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/f6.webp",
     alt: "Cybersecurity",
+    href: "/services#cybersecurity",
+
   },
   {
     title: "Data Science Services",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/f7.webp",
     alt: "Data Science",
+    href: "/services#data-science",
+
   },
   {
     title: "Data Analysis Services",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/f8.webp",
     alt: "Data Analysis",
+    href: "/services#data-analysis",
+
   },
   {
     title: "Graphic Design Services",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/f9.webp",
     alt: "Graphic Design",
+    href: "/services#graphic-design",
   },
 ]
 
