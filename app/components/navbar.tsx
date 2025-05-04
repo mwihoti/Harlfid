@@ -48,11 +48,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold">
+            <div className="text-2xl font-bold underline divide-zinc-900">
               <span className="text-gray-900">HAR L</span>
               <span className="text-blue-500">FID</span>
             </div>
-            <div className="text-xs text-gray-600 ml-1">YOUR DIGITAL PARTNER</div>
+            <div className="text-2lg font-bold italic text-blue-600 ml-1">YOUR DIGITAL PARTNER</div>
           </div>
 
           {/* Desktop Navigation */}

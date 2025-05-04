@@ -59,11 +59,11 @@ export default function Footer() {
           <div>
             <div className="mb-6">
               <Image
-                src="/placeholder.svg?height=120&width=200"
+                src="/harlfidlogo.jpg"
                 alt="Harlfid Logo"
                 width={200}
                 height={120}
-                className="mb-4"
+                className="mb-4 rounded-xl"
               />
               <p className="text-gray-300">
                 We empower businesses with cutting-edge digital solutions tailored to drive growth and innovation.
@@ -119,7 +119,7 @@ export default function Footer() {
 
         {/* Contact Info with Map */}
         <div className="grid md:grid-cols-2 gap-8 mt-8 mb-8">
-          <div className="bg-[#0078D4] text-white p-8 rounded-full md:rounded-[100px]">
+          <div className="bg-[#0078D4] grid-flow-col  justify-items-center  text-white p-3 rounded-full md:rounded-[100px]">
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <Home size={20} />

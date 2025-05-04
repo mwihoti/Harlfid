@@ -82,7 +82,7 @@ export default function Home() {
           </div>
 
           <div className="container mx-auto px-4 py-16 md:py-24 relative z-20">
-            <div className="max-w-2xl">
+            <div className="max-w-2xl text-center flex flex-col justify-center">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-slide-in opacity-0">
                 Empowering Global Businesses with Cutting-Edge Digital Solutions at Harlfid.
               </h1>
@@ -90,7 +90,7 @@ export default function Home() {
                 Harlfid provides top-notch digital skills and services to help you scale your business globally.
               </p>
               <button
-                className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full flex items-center transition-all animate-slide-in opacity-0"
+                className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full  flex justify-center items-center transition-all animate-slide-in opacity-0"
                 style={{ animationDelay: "0.5s" }}
               >
                 Try Now <ArrowRight className="ml-2" />

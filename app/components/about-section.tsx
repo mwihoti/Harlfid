@@ -42,7 +42,7 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
           <div className="relative h-[400px]">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/img1.jpg"
               alt="Why Choose Us"
               fill
               className="object-cover rounded-lg"
@@ -50,6 +50,7 @@ export default function AboutSection() {
           </div>
           <div className="text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Us?</h2>
+
             <p className="text-white/80 mb-4">
               At Harlfid, we deliver comprehensive digital solutions tailored to your unique business needs. With a
               global reach and a skilled and passionate team, we ensure measurable results and excellence in every
