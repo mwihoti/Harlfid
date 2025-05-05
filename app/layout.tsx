@@ -7,7 +7,12 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Harlfid - Your Digital Partner",
-  description: "Empowering Global Businesses with Cutting-Edge Digital Solutions",
+  description: "Explore Harlfid's comprehensive range of digital services including web development, digital marketing, AI solutions, and more.",
+  openGraph: {
+    title: "Harlfid - Your Digital Partner",
+  description: "Explore Harlfid's comprehensive range of digital services including web development, digital marketing, AI solutions, and more.",
+  }
+
 }
 
 export default function RootLayout({

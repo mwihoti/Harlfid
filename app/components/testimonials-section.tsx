@@ -173,9 +173,10 @@ export default function TestimonialsSection() {
                           <div className="relative w-12 h-12 mr-4">
                             <Image
                               src={testimonial.image || "/placeholder.svg"}
-                              alt={testimonial.name}
+                              alt={`${testimonial.name} - testimonials images`}
                               fill
                               className="rounded-full object-cover"
+                              priority={index < 3}
                             />
                           </div>
                           <div>

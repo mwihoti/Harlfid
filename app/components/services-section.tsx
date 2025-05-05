@@ -86,7 +86,7 @@ export default function ServicesSection() {
               className="bg-[#0a4da8] rounded-lg overflow-hidden transform transition-all hover:scale-105"
             >
               <div className="relative h-48">
-                <Image src={service.image || "/placeholder.svg"} alt={service.alt} fill className="object-cover" />
+                <Image src={service.image || "/placeholder.svg"} alt={`${service.alt} - Harlfid digital services`} fill className="object-cover" priority={index < 3} />
               </div>
               <div className="p-6">
                 <h3 className="text-white font-semibold mb-4">{service.title}</h3>

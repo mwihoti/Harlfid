@@ -46,6 +46,8 @@ export default function AboutSection() {
               alt="Why Choose Us"
               fill
               className="object-cover rounded-lg"
+              priority={true}
+              loading="eager"
             />
           </div>
           <div className="text-white">
